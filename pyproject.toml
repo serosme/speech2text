@@ -1,0 +1,17 @@
+[project]
+name = "speech2text"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dashscope>=1.24.6",
+    "keyboard>=0.13.5",
+    "loguru>=0.7.3",
+    "pynput>=1.8.1",
+    "sounddevice>=0.5.2",
+    "wavio>=0.0.9",
+]
+
+[project.scripts]
+speech2text = "speech2text.main:main"
